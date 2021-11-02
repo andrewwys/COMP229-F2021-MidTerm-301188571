@@ -13,7 +13,8 @@
               </div>
               <div class="form-group">
                 <label for="PriceTextField">Price</label>
-                <input type="text" class="form-control" id="PriceTextField"
+                <!-- !! changed type to number -->
+                <input type="number" step=0.01 class="form-control" id="PriceTextField"
                 placeholder="Book Price" name="price" value="<%= books.Price %>"  required>
               </div>
               <div class="form-group">

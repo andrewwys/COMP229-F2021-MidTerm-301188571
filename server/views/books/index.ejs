@@ -8,8 +8,9 @@
           <!-- ------------------------ -->
           <!-- FIX THE ADD BUTTON BELOW -->
           <!-- ------------------------ -->
-          <a href="" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
-          <br>
+          <!-- !!#1a insert correct route href attribute -->
+          <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
+          <br><br>
           <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover">
               <thead>
@@ -35,12 +36,16 @@
                     <!-- ------------------------ -->
                     <!-- ADD the EDIT BUTTON HERE -->
                     <!-- ------------------------ -->
+                    <!-- !!#1b -->
+                    <a href="/books/<%= books[count]._id %> " class="btn btn-warning btn-sm" role="button">Edit</a>
                   </td>
 
                   <td class="text-center">
                     <!-- ------------------------ -->
                     <!-- ADD the DELETE BUTTON HERE -->
                     <!-- ------------------------ -->
+                    <!-- !!#1c -->
+                    <a href="/books/delete/<%= books[count]._id %> " class="btn btn-danger btn-sm" role="button">Delete</a>
                   </td>
                 </tr>
                 <% } %>
