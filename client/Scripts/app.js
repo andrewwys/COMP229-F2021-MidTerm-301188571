@@ -1,3 +1,7 @@
+// Filename: app.js
+// Wing Yin Andrew Sit (# 301188571)
+// Date modified: 2021/11/02
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */

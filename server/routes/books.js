@@ -1,3 +1,7 @@
+// Filename: books.js
+// Wing Yin Andrew Sit (# 301188571)
+// Date modified: 2021/11/02
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();
